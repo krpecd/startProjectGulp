@@ -1,0 +1,1 @@
+Images from this folder will be minified wit gulp-images command
