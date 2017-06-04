@@ -20,6 +20,7 @@
     "vue-template-compiler": "^2.1.4"
   },
   "dependencies": {
-    "gulp-imagemin": "^3.2.0"
+    "gulp-imagemin": "^3.2.0",
+    "gulp-penthouse": "^0.2.0"
   }
 }

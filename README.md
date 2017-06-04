@@ -32,7 +32,7 @@ Usage on Windows with XAMPP
 * laravel-elixir (https://laravel.com/docs/5.3/elixir)
 * webpack
 * sass
-
+* gulp-penthouse
 
 ### Commands ####
 * gulp 
@@ -45,3 +45,5 @@ Usage on Windows with XAMPP
 	- Makes the same as watch, but is minifying css and js
 * gulp images 
 	- Minifying images from /resources/assets/imgs/ to /public/imgs/
+* gulp critical
+	- Generating critical.css from website to /resouerces/assets/sass/critical.scss
