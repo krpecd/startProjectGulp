@@ -4,6 +4,7 @@ elixir.config.sourcemaps = false;
 
 elixir(mix => {
     mix.sass('front.scss')
+    .sass('critical.scss')
     .webpack('front.js');
 });
 
