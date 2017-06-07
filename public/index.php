@@ -17,12 +17,20 @@
 
   <!-- ### CSS loading ### --> 
   
-  <!--Critical CSS -->
-  <style><?php include('css/critical.css'); ?></style>
-
-
-  <!--Full CSS-->
-  <link rel="preload" href="css/front.css" as="style" onload="this.rel='stylesheet'">
+  <meta name="fullcss"  content="css/front.css">
+  <meta name="fulljs"  content="js/enhancements.js">
+    <!--#if expr="$HTTP_COOKIE=/fullcss\=true/" -->
+      <link rel="stylesheet" href="css/front.css">
+    <!--#else -->
+  <style>
+    /* critical CSS styles for this template go here... */
+    <?php include('css/critical.css'); ?>
+  </style>
+<!--#endif -->  
+  <script>
+    <!--#include virtual="js/enhance.js" -->
+  </script>
+  
   <noscript><link rel="stylesheet" href="css/front.css"></noscript>
 
 
